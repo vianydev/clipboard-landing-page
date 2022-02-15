@@ -1,0 +1,262 @@
+/* * {
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+} */
+
+body {
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 1.125rem;
+    color: hsl(201, 11%, 66%);
+    width: 100%;
+    min-height: 100vh;
+}
+
+h1, h2, h3, h4 {
+    color: hsl(212, 10%, 33%);
+}
+
+a { 
+    text-decoration: none;
+}
+
+a:hover {
+    color: hsl(171, 66%, 44%);
+}
+
+#hero-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* height: 29rem; */
+    margin-bottom: 6rem;
+    background-image: linear-gradient(rgba(253, 253, 253, 0), rgba(253, 253, 253, 1)), url("./images/bg-header-desktop.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.title-container {
+    text-align: center;
+    max-width: 40.2rem;
+    margin-top: 6rem;
+}
+
+.subtitle-container {
+    text-align: center;
+    max-width: 40.2rem;
+    margin-bottom: 5rem;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    height: 6.2rem;
+}
+
+.button-container {
+    margin: 2rem;
+}
+
+.btn {
+    width: 14rem;
+    height: 3rem;
+    margin: 5px;
+    border: 1px solid hsl(171, 66%, 44%);
+    border-radius: 50px;
+    color: white;
+    background-color: hsl(171, 66%, 44%);
+    box-shadow: 1px 5px 5px hsl(171, 66%, 30%);
+    cursor: pointer;
+    transition: all .1s linear;
+
+}
+
+.btn:hover {
+    border: 1px solid hsl(171, 52%, 58%);
+    background-color: hsl(171, 52%, 58%);
+}
+
+.btn:active {
+    transform: translateY(3px);
+}
+
+.secundary {
+    background-color: hsl(233, 100%, 69%);
+    border: 1px solid hsl(233, 100%, 69%);
+    box-shadow: 1px 5px 5px hsl(234, 45%, 36%);
+}
+
+.secundary:hover {
+    border: 1px solid hsl(233, 92%, 76%);
+    background-color: hsl(233, 92%, 76%);
+}
+
+#section-container {
+    margin-bottom: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info-section {
+    margin: 2rem;
+    display: flex;
+}
+
+.computer {
+    position: relative;
+    left: -180px;
+}
+
+.info-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.box {
+    max-width: 20rem;
+}
+
+.devices {
+    width: 45rem;
+}
+
+.icon-container {
+    margin-bottom: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.icons {
+    text-align: center;
+    margin: 1rem;
+}
+
+.icon {
+    height: 32px;
+}
+
+.brand-container {
+    margin-bottom: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.brand {
+    margin: 1rem;
+}
+
+.download-container {
+    text-align: center;
+    max-width: 40.2rem;
+    margin-bottom: 1rem;
+}
+.btn-container-download {
+    margin-bottom: 4rem;
+}
+
+footer {
+    height: 7rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: hsl(220, 18%, 97%);
+}
+
+.nav-logo {
+    width: 3rem;
+    padding-right: 2rem;
+}
+
+.nav-footer {
+    color: hsl(212, 10%, 33%);
+    padding: 0 2rem;
+    padding-bottom: .5rem;
+}
+
+#nav {
+    padding-right: 5rem;
+    height: 60px;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+#social-media {
+    padding-left: 13rem;
+}
+
+.icon-social {
+    margin: 0 1rem;
+}
+
+.icon-social:hover {
+    border-radius: 3px;
+    background-color: hsl(171, 66%, 44%);
+}
+
+@media only screen and (max-width: 1088px){
+    .info-section {
+        flex-flow: column wrap;
+        justify-content: center;
+    }
+
+    .computer {
+        position: static;
+        left: auto;
+        width: 100%;
+    }
+
+    .info-container {
+        align-items: center;
+    }
+
+    .info {
+        text-align: center;
+    }
+    .devices{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 736px){
+    .button-container, .btn-container-download {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .btn {
+        margin: 1rem 0;
+    }
+
+    footer {
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-logo {
+        padding: 1.5rem 0;
+    }
+
+    #nav {
+        text-align: center;
+        height: auto;
+        padding: 1.5rem 0;
+    }
+
+    .nav-footer {
+        padding: 5px 0px;
+    }
+
+    #social-media {
+        padding: 1.5rem 0;
+    }
+}

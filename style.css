@@ -94,7 +94,7 @@ a:hover {
     background-color: hsl(233, 92%, 76%);
 }
 
-#section-container {
+.section-container {
     margin-bottom: 5rem;
     display: flex;
     flex-direction: column;

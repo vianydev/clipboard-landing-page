@@ -37,8 +37,8 @@ Users should be able to:
 
 ### Useful resources
 
-- [Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) - This resorces helpe me with the flex box property.
-- [Normalize](https://necolas.github.io/normalize.css/) - I started my project with this resource to keep all my element consistentle in all the web browsers.
+- [Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) - This resource help me with the flexbox property.
+- [Normalize](https://necolas.github.io/normalize.css/) - I started my project with this resource to keep all my elements consistently in all the web browsers.
 
 ## Author
 
